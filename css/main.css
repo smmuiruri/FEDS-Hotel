@@ -1,5 +1,65 @@
 /* feds-header */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
 
+.feds-header{
+    background: #211f17;
+    display: block;
+    padding: 20px;
+    
+}
+
+.feds-logo{
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.feds-nav{
+   max-width: 90%;
+       border: 2px solid #3a382e;
+    display: block;
+  
+    margin: 30px auto 5px auto;
+  
+}
+
+.feds-nav div
+{
+    display: table;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.feds-nav div ul li{
+    display:inline-block;  
+   
+}
+
+
+.feds-nav div ul li a{
+    font-size: 1.8vmax;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+    
+    
+}
+.feds-nav div ul li a:hover{
+    
+    color: #ec3c6a;
+}
+
+.feds-list::after{
+    content: url("../images/circle.png");
+  
+   
+}
 /* feds-imgslider */
 
 /* feds-slider room flex */
