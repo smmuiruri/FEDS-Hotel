@@ -118,14 +118,14 @@
     font-weight: bolder;
 }
 
-.feds-revcontineous p{
+.feds-revcontineous .p{
     font-size: 1.5vw;
     color:white;
 }
 
 .feds-review{
     padding:3% 0 0% 5%;
-    max-width: 70px;
+    max-width: 70%;
 
 }
 
@@ -136,6 +136,6 @@
 }
 
 .feds-stars img {
-    width: 5%;
+    width: 50%;
     height: auto;
 }
