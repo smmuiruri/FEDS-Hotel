@@ -76,18 +76,11 @@
 .feds-servicesection{
     display: flex;
 }
-.feds-serviceimage{
-    display: inline-block;
-    max-width: 20px;
-    width: 10px;
-    height: auto;
-    padding-bottom: 10px;
 
-}
 .feds-service div{
     display: inline-block;
-    max-width: 75px;
-    padding: 5px;
+    max-width: 75%;
+    padding: 5%;
 }
 
 .feds-service p {
@@ -95,14 +88,14 @@
 }
 
 .feds-service .b{
-    padding-bottom: 2px;
+    padding-bottom: 2%;
     font-weight: bolder;
 }
 
 /* reviews*/
 
 .feds-review{
-    background: burlywood;
+    background:black;
     padding-bottom: 5%;
 }
 
