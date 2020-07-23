@@ -1,0 +1,11 @@
+/* services */
+
+.feds-service{
+    max-width: 30%;
+    width: 30%;
+    margin: 1.5% 12% 1.5% 10%;  
+}
+
+.feds-servicesection{
+    display: flex;
+}
