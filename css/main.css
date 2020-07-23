@@ -68,11 +68,19 @@
 
 
 .feds-service{
-    max-width: 30%;
-    width: 30%;
-    margin: 1.5% 12% 1.5% 10%;  
+    max-width: 30px;
+    width: 30px;
+    margin: 1.5px 12px 1.5px 10px;  
 }
 
 .feds-servicesection{
     display: flex;
+}
+.feds-serviceimage{
+    display: inline-block;
+    max-width: 20px;
+    width: 10px;
+    height: auto;
+    padding-bottom: 10px;
+
 }
