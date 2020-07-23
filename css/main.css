@@ -294,6 +294,45 @@
         font-size: 2.5vw;
     }
 <<<<<<< HEAD
+/*sam*/
+    .feds-booking
+    {
+         background: #278657;
+        position: relative;
+    }
+    .feds-form1, .feds-form2{
+       
+        padding: 2% 5%;
+        
+    }
+    
+     div.vertical-line{
+          width: 0.15%; 
+          background-color:  #ec3d68; 
+          height: 90%; 
+          position: absolute;
+             top: 6%;
+        left: 50%;
+        }
+    
+    .feds-form1{
+        float:left;
+          max-width: 40%;
+        width: 40%;
+        
+        
+    }
+    
+    .feds-form2{
+        float:right;               
+         max-width: 40%;
+        width: 40%;
+       
+    }
+    
+=======
+<<<<<<< HEAD
     /*End of  image slider section*/
 =======
 >>>>>>> 1aa8c1f5fdc249dbbe4f8e299ccbf05578396a01
+>>>>>>> 108f13e5fc9f1a93d829d061b79c2e4d0107cc57
