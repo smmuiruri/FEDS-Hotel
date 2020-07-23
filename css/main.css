@@ -293,3 +293,39 @@
     .other {
         font-size: 2.5vw;
     }
+/*sam*/
+    .feds-booking
+    {
+         background: #278657;
+        position: relative;
+    }
+    .feds-form1, .feds-form2{
+       
+        padding: 2% 5%;
+        
+    }
+    
+     div.vertical-line{
+          width: 0.15%; 
+          background-color:  #ec3d68; 
+          height: 90%; 
+          position: absolute;
+             top: 6%;
+        left: 50%;
+        }
+    
+    .feds-form1{
+        float:left;
+          max-width: 40%;
+        width: 40%;
+        
+        
+    }
+    
+    .feds-form2{
+        float:right;               
+         max-width: 40%;
+        width: 40%;
+       
+    }
+    
