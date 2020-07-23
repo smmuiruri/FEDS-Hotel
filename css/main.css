@@ -1,83 +1,77 @@
 /* feds-header */
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-.feds-header{
+.feds-header {
     background: #8a710d;
     display: block;
     padding: 20px;
-    
 }
 
-.feds-logo{
+.feds-logo {
     align-content: center;
     display: block;
     margin: 0 auto;
     width: 30%;
 }
 
-.feds-nav{
-   max-width: 90%;
-       border: 2px solid #3a382e;
+.feds-nav {
+    max-width: 90%;
+    border: 2px solid #3a382e;
     display: block;
-  
     margin: 30px auto 5px auto;
-  
 }
 
-.feds-nav div
-{
+.feds-nav div {
     display: table;
     padding: 10px;
     margin: 0px auto;
 }
 
-.feds-nav div ul li{
-    display:inline-block;  
-   
+.feds-nav div ul li {
+    display: inline-block;
 }
 
-
-.feds-nav div ul li a{
+.feds-nav div ul li a {
     font-size: 1.8vmax;
     padding: 10px 30px;
     text-decoration: none;
     color: #fff;
     line-height: 50px;
-    
-    
 }
-.feds-nav div ul li a:hover{
-    
+
+.feds-nav div ul li a:hover {
     color: #ec3c6a;
 }
 
-.feds-list::after{
+.feds-list::after {
     content: url("../images/circle.png");
-  
-   
 }
+
+
 /* feds-imgslider */
+
 
 /* feds-slider room flex */
 
+
 /* services */
 
-
-.feds-service{
+.feds-service {
     max-width: 30%;
     width: 30%;
-    margin: 1.5% 12% 1.5% 10%;  
+    margin: 1.5% 12% 1.5% 10%;
 }
 
-.feds-servicesection{
+.feds-servicesection {
     display: flex;
 }
 
-.feds-service div{
+.feds-service div {
     display: inline-block;
     max-width: 75%;
     padding: 5%;
@@ -87,252 +81,222 @@
     font-size: 1.5vw;
 }
 
-.feds-service .b{
+.feds-service .b {
     padding-bottom: 2%;
     font-weight: bolder;
 }
 
+
 /* reviews*/
 
-.feds-review{
-    background:black;
+.feds-review {
+    background: black;
     padding-bottom: 5%;
 }
 
-.feds-review::after{
+.feds-review::after {
     content: "";
     display: block;
     clear: both;
 }
 
-.feds-revcontineous{
+.feds-revcontineous {
     float: left;
     padding-left: 5%;
     max-width: 65%;
 }
 
-
-.feds-revcontineous .b{
+.feds-revcontineous .b {
     padding: 3% 0 3% 5%;
     font-size: 2vw;
     font-weight: bolder;
 }
 
-.feds-revcontineous .p{
+.feds-revcontineous .p {
     font-size: 1.5vw;
-    color:white;
+    color: white;
 }
 
-.feds-review{
-    padding:3% 0 0% 5%;
+.feds-review {
+    padding: 3% 0 0% 5%;
     max-width: 70%;
-
 }
 
 .feds-stars {
     display: block;
     padding-left: 5%;
-
 }
 
 .feds-stars img {
     width: 50%;
     height: auto;
 }
-    /* feds-header */
-    
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    .feds-header {
-        background: #211f17;
-        display: block;
-        padding: 20px;
-    }
-    
-    .feds-logo {
-        align-content: center;
-        display: block;
-        margin: 0 auto;
-        width: 30%;
-    }
-    
-    .feds-nav {
-        max-width: 90%;
-        border: 2px solid #3a382e;
-        display: block;
-        margin: 30px auto 5px auto;
-    }
-    
-    .feds-nav div {
-        display: table;
-        padding: 10px;
-        margin: 0px auto;
-    }
-    
-    .feds-nav div ul li {
-        display: inline-block;
-    }
-    
-    .feds-nav div ul li a {
-        font-size: 1.8vmax;
-        padding: 10px 30px;
-        text-decoration: none;
-        color: #fff;
-        line-height: 50px;
-    }
-    
-    .feds-nav div ul li a:hover {
-        color: #ec3c6a;
-    }
-    
-    .feds-list::after {
-        content: url("../images/circle.png");
-    }
-    /* feds-imgslider */
-    /* feds-slider room flex */
-    /* services */
-    
-    .feds-service {
-        max-width: 30%;
-        width: 30%;
-        margin: 1.5% 12% 1.5% 10%;
-    }
-    
-    .feds-servicesection {
-        display: flex;
-    }
- 
-    .feds-service div {
-        display: inline-block;
-        max-width: 75%;
-        padding: 5%;
-    }
-    
-    .feds-service .p {
-        font-size: 1.5vw;
-    }
-    
-    .feds-service .b {
-        padding-bottom: 2%;
-        font-weight: bolder;
-    }
-    /* reviews*/
-    
-    .feds-review {
-        background: black;
-        padding-bottom: 5%;
-    }
-    
-    .feds-review::after {
-        content: "";
-        display: block;
-        clear: both;
-    }
-    
-    .feds-revcontineous {
-        float: left;
-        padding-left: 5%;
-        max-width: 65%;
-    }
-    
-    .feds-revcontineous .b {
-        padding: 3% 0 3% 5%;
-        font-size: 2vw;
-        font-weight: bolder;
-    }
-    
-    .feds-revcontineous .p {
-        font-size: 1.5vw;
-        color: white;
-    }
-    
-    .feds-review {
-        padding: 3% 0 0% 5%;
-        max-width: 70px;
-    }
-    
-    .feds-stars {
-        display: block;
-        padding-left: 5%;
-    }
-    
-    .feds-stars img {
-        width: 5%;
-        height: auto;
-    }
-    /* Image slider section */
-    
-    .text {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        color: #fff;
-    }
-    
-    .image-slide {
-        position: relative;
-    }
-    
-    .text {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        color: #fff;
-    }
-    
-    .experience {
-        padding-bottom: 5px;
-        font-size: 3vw;
-        font-weight: 900;
-    }
-    
-    .other {
-        font-size: 2.5vw;
-    }
-<<<<<<< HEAD
-/*sam*/
-    .feds-booking
-    {
-         background: #278657;
-        position: relative;
-    }
-    .feds-form1, .feds-form2{
-       
-        padding: 2% 5%;
-        
-    }
-    
-     div.vertical-line{
-          width: 0.15%; 
-          background-color:  #ec3d68; 
-          height: 90%; 
-          position: absolute;
-             top: 6%;
-        left: 50%;
-        }
-    
-    .feds-form1{
-        float:left;
-          max-width: 40%;
-        width: 40%;
-        
-        
-    }
-    
-    .feds-form2{
-        float:right;               
-         max-width: 40%;
-        width: 40%;
-       
-    }
-    
-=======
-<<<<<<< HEAD
-    /*End of  image slider section*/
-=======
->>>>>>> 1aa8c1f5fdc249dbbe4f8e299ccbf05578396a01
->>>>>>> 108f13e5fc9f1a93d829d061b79c2e4d0107cc57
+
+
+/* feds-header */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.feds-header {
+    background: #211f17;
+    display: block;
+    padding: 20px;
+}
+
+.feds-logo {
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.feds-nav {
+    max-width: 90%;
+    border: 2px solid #3a382e;
+    display: block;
+    margin: 30px auto 5px auto;
+}
+
+.feds-nav div {
+    display: table;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.feds-nav div ul li {
+    display: inline-block;
+}
+
+.feds-nav div ul li a {
+    font-size: 1.8vmax;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+}
+
+.feds-nav div ul li a:hover {
+    color: #ec3c6a;
+}
+
+.feds-list::after {
+    content: url("../images/circle.png");
+}
+
+
+/* feds-imgslider */
+
+
+/* feds-slider room flex */
+
+
+/* services */
+
+.feds-service {
+    max-width: 30%;
+    width: 30%;
+    margin: 1.5% 12% 1.5% 10%;
+}
+
+.feds-servicesection {
+    display: flex;
+}
+
+.feds-service div {
+    display: inline-block;
+    max-width: 75%;
+    padding: 5%;
+}
+
+.feds-service p {
+    font-size: 1.5vw;
+}
+
+.feds-service .b {
+    padding-bottom: 2%;
+    font-weight: bolder;
+}
+
+
+/* reviews*/
+
+.feds-review {
+    background: black;
+    padding-bottom: 5%;
+}
+
+.feds-review::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.feds-revcontineous {
+    float: left;
+    padding-left: 5%;
+    max-width: 65%;
+}
+
+.feds-revcontineous .b {
+    padding: 3% 0 3% 5%;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+.feds-revcontineous .p {
+    font-size: 1.5vw;
+    color: white;
+}
+
+.feds-review {
+    padding: 3% 0 0% 5%;
+    max-width: 70px;
+}
+
+.feds-stars {
+    display: block;
+    padding-left: 5%;
+}
+
+.feds-stars img {
+    width: 5%;
+    height: auto;
+}
+
+
+/* Image slider section */
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: #fff;
+}
+
+.image-slide {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: #fff;
+}
+
+.experience {
+    padding-bottom: 5px;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+.other {
+    font-size: 2.5vw;
+}
+
+
+/*End of  image slider section*/
