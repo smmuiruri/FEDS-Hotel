@@ -205,14 +205,14 @@
     .feds-servicesection {
         display: flex;
     }
-    
+ 
     .feds-service div {
         display: inline-block;
         max-width: 75%;
         padding: 5%;
     }
     
-    .feds-service p {
+    .feds-service .p {
         font-size: 1.5vw;
     }
     
@@ -293,6 +293,7 @@
     .other {
         font-size: 2.5vw;
     }
+<<<<<<< HEAD
 /*sam*/
     .feds-booking
     {
@@ -329,3 +330,9 @@
        
     }
     
+=======
+<<<<<<< HEAD
+    /*End of  image slider section*/
+=======
+>>>>>>> 1aa8c1f5fdc249dbbe4f8e299ccbf05578396a01
+>>>>>>> 108f13e5fc9f1a93d829d061b79c2e4d0107cc57
