@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* feds-header */
 *{
     margin: 0;
@@ -139,3 +140,159 @@
     width: 50%;
     height: auto;
 }
+=======
+    /* feds-header */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .feds-header {
+        background: #211f17;
+        display: block;
+        padding: 20px;
+    }
+    
+    .feds-logo {
+        align-content: center;
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+    }
+    
+    .feds-nav {
+        max-width: 90%;
+        border: 2px solid #3a382e;
+        display: block;
+        margin: 30px auto 5px auto;
+    }
+    
+    .feds-nav div {
+        display: table;
+        padding: 10px;
+        margin: 0px auto;
+    }
+    
+    .feds-nav div ul li {
+        display: inline-block;
+    }
+    
+    .feds-nav div ul li a {
+        font-size: 1.8vmax;
+        padding: 10px 30px;
+        text-decoration: none;
+        color: #fff;
+        line-height: 50px;
+    }
+    
+    .feds-nav div ul li a:hover {
+        color: #ec3c6a;
+    }
+    
+    .feds-list::after {
+        content: url("../images/circle.png");
+    }
+    /* feds-imgslider */
+    /* feds-slider room flex */
+    /* services */
+    
+    .feds-service {
+        max-width: 30%;
+        width: 30%;
+        margin: 1.5% 12% 1.5% 10%;
+    }
+    
+    .feds-servicesection {
+        display: flex;
+    }
+    
+    .feds-service div {
+        display: inline-block;
+        max-width: 75%;
+        padding: 5%;
+    }
+    
+    .feds-service p {
+        font-size: 1.5vw;
+    }
+    
+    .feds-service .b {
+        padding-bottom: 2%;
+        font-weight: bolder;
+    }
+    /* reviews*/
+    
+    .feds-review {
+        background: black;
+        padding-bottom: 5%;
+    }
+    
+    .feds-review::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    .feds-revcontineous {
+        float: left;
+        padding-left: 5%;
+        max-width: 65%;
+    }
+    
+    .feds-revcontineous .b {
+        padding: 3% 0 3% 5%;
+        font-size: 2vw;
+        font-weight: bolder;
+    }
+    
+    .feds-revcontineous p {
+        font-size: 1.5vw;
+        color: white;
+    }
+    
+    .feds-review {
+        padding: 3% 0 0% 5%;
+        max-width: 70px;
+    }
+    
+    .feds-stars {
+        display: block;
+        padding-left: 5%;
+    }
+    
+    .feds-stars img {
+        width: 5%;
+        height: auto;
+    }
+    /* Image slider section */
+    
+    .text {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        color: #fff;
+    }
+    
+    .image-slide {
+        position: relative;
+    }
+    
+    .text {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        color: #fff;
+    }
+    
+    .experience {
+        padding-bottom: 5px;
+        font-size: 3vw;
+        font-weight: 900;
+    }
+    
+    .other {
+        font-size: 2.5vw;
+    }
+>>>>>>> 4ce2324892eeb93259c3e081d4a153e6f9d41be9
