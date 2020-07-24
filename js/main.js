@@ -1,39 +1,39 @@
 // booking section - increament & decreament on number of guests and rooms
 $(function ($) {
-    $('#handleCounter1').handleCounter({
-      minimum: 1,
-      maximize: 100,
-    
-    })
+  $('#handleCounter1').handleCounter({
+    minimum: 1,
+    maximize: 100,
+
+  })
+
+  $('#handleCounter2').handleCounter({
+    minimum: 1,
+    maximize: 100,
+
+  })
+
+});
+
+// booking section - date
+
+addEventListener('DOMContentLoaded', function () {
+
+
+
+
+  datepicker('.range', {
+    mode: 'range',
+    separator: '    to   ',
+    position: 'bottom',
   
-    $('#handleCounter2').handleCounter({
-      minimum: 1,
-      maximize: 100,
-  
-    })
-  
+    format: 'd b-y',
+
   });
-
-  // booking section - date
-
-  addEventListener('DOMContentLoaded', function () {
+  // datepicker
 
 
 
+});
 
-    pickmeup('.range', {
-      mode: 'range',
-      separator: '    to   ',
-      position: 'bottom',
-      //        hide_on_select : true,
-      format: 'd b-y',
-  
-    });
-    //pickmeup('.range').show();
-  
-  
-  
-  });
-
-  i
-  on
+i
+on
