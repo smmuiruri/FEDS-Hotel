@@ -160,7 +160,15 @@
     padding-bottom: 2%;
     font-weight: bolder;
 }
+.tm-serviceimage{
+    display: inline-block;
+    max-width: 20%;
+    width: 10%;
+    height: auto;
+padding-bottom: 10%;
 
+
+}
 
 /* reviews*/
 
@@ -264,7 +272,32 @@
 
 
 /* feds-imgslider */
+.feds-slider{
+    position: relative;
+}
 
+
+.feds-sliderimage{
+    width: 100%;
+   display: block;
+   
+   
+}
+.experience{
+    padding-bottom: 5px;
+    font-size: 3vw;  
+    font-weight: 900;
+}
+.other{
+    font-size: 2.5vw;  
+}
+
+.text{
+ position: absolute; 
+   top: 30%; 
+  left: 50%;     
+    color: #fff;
+}
 
 /* feds-slider room flex */
 
