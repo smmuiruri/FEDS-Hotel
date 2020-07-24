@@ -1,3 +1,5 @@
+const pickmeup = require ("./pickmeup");
+
 // booking section - increament & decreament on number of guests and rooms
 $(function ($) {
   $('#handleCounter1').handleCounter({
@@ -18,10 +20,7 @@ $(function ($) {
 
 addEventListener('DOMContentLoaded', function () {
 
-
-
-
-  datepicker('.range', {
+  pickmeup('.range', {
     mode: 'range',
     separator: '    to   ',
     position: 'bottom',
@@ -34,6 +33,3 @@ addEventListener('DOMContentLoaded', function () {
 
 
 });
-
-i
-on
